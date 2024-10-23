@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/public/landing-page-bg.png');
+  background-color: rgba(0, 0, 0, 0.75);
+  background-position: left bottom;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+
+.navbar {
+  width: 100%;
+  margin-left: auto;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  gap: 1.5rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
